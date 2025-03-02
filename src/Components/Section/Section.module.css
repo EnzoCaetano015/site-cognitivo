@@ -1,0 +1,25 @@
+.section {
+    padding: 60px 20px;
+    text-align: center;
+    color: white;
+    height: 90vh;
+  }
+  
+  .section h2 {
+    margin-bottom: 15px;
+    font-size: 28px;
+  }
+  
+  .section p {
+    max-width: 600px;
+    margin: 0 auto;
+    font-size: 18px;
+    line-height: 1.6;
+  }
+  
+  .contentWrapper {
+    margin-top: 20px;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+  }
