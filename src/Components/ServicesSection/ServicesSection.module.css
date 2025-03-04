@@ -1,0 +1,103 @@
+.services {
+    text-align: center;
+    padding: 60px 5%;
+    background-color: #ffff;
+}
+
+.header {
+    margin-bottom: 40px;
+}
+
+.tag {
+    display: inline-block;
+    background-color: #e6e6e6;
+    padding: 6px 12px;
+    font-size: 14px;
+    border-radius: 20px;
+}
+
+h2 {
+    font-size: 32px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+p {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 30px;
+}
+
+/* Grid de Serviços */
+.grid {
+    padding: 0px 60px;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 40px;
+}
+
+/* Cartões */
+.card {
+    background: #f8f9fa;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: left;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card h3 {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.card p {
+    font-size: 14px;
+    color: #555;
+}
+
+.card ul {
+    padding-left: 15px;
+    margin: 10px 0;
+}
+
+.card ul li {
+    font-size: 14px;
+    color: #444;
+}
+
+/* Ícone */
+.icon {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+/* Link Saiba Mais */
+.card a {
+    display: inline-block;
+    color: #007bff;
+    font-size: 14px;
+    margin-top: 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.card a:hover {
+    text-decoration: underline;
+}
+
+
+.header svg {
+    color: black;
+    cursor: pointer;
+    transition: color 0.3s ease-in-out;
+}
+
+.header svg:hover {
+    color: #F3C623;
+}
