@@ -93,9 +93,13 @@
 .imagePlaceholder {
   width: 45%;
   height: 450px;
-  background: linear-gradient(135deg, #e6e9ef, #f5f8fc);
+  /* background: linear-gradient(135deg, #e6e9ef, #f5f8fc); */
   border-radius: 10px;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.imagePlaceholder img{
+  width: 65%;
 }

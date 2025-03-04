@@ -30,7 +30,7 @@ const HeroSection = () => {
           <span className={styles.purple}>🟣 Layouts de Apoio</span>
         </div>
       </div>
-      <div className={styles.imagePlaceholder}></div>
+      <div className={styles.imagePlaceholder}> <img src="acessibilidade.png" alt="" /></div>
     </section>
   );
 };
