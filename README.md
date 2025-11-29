@@ -1,5 +1,5 @@
 
-# 🚀 Site Cognitivo  
+# 🚀 Site Acessivel  
 **Acessibilidade Digital para Pessoas com Desafios Cognitivos**
 
 ![Badge](https://img.shields.io/badge/Status-Em%20Desenvolvimento-blue)
