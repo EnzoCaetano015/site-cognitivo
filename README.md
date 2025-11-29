@@ -1,12 +1,97 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# 🚀 Site Cognitivo  
+**Acessibilidade Digital para Pessoas com Desafios Cognitivos**
 
-Currently, two official plugins are available:
+![Badge](https://img.shields.io/badge/Status-Em%20Desenvolvimento-blue)
+![Badge](https://img.shields.io/badge/React-19.0.0-61dafb?logo=react)
+![Badge](https://img.shields.io/badge/Vite-6.2-purple?logo=vite)
+![Badge](https://img.shields.io/badge/Acessibilidade-First-success)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## ✨ Visão Geral  
+O **Site Cognitivo** é um portal moderno, responsivo e totalmente focado em **inclusão digital**.  
+Ele oferece conteúdo acessível, leitura em voz alta, seções informativas sobre transtornos cognitivos e um design pensado para garantir clareza, organização e apoio ao usuário.
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🧩 Recursos Principais  
+- 🔊 **Leitura em Voz Alta** usando Web Speech API  
+- 🧠 **Seções temáticas**: Dislexia, TDAH, Autismo, Alzheimer, Afasia e Discalculia  
+- 🧭 **Navegação intuitiva** com rolagem suave e menu semântico  
+- 🎨 **Interface modular** com CSS Modules  
+- 📱 **Totalmente responsivo**  
+- 📨 **Formulário de contato acessível**
+
+---
+
+## 🛠️ Tecnologias Utilizadas  
+| Tecnologia | Finalidade |
+|-----------|------------|
+| ⚛️ React | Interface do usuário |
+| ⚡ Vite | Bundler e servidor de desenvolvimento |
+| 🛣️ React Router DOM | Rotas da aplicação |
+| 🎧 Web Speech API | Conversão de texto em fala |
+| 🎨 CSS Modules | Estilização modular |
+| 🎭 React Icons | Ícones do projeto |
+
+---
+
+## 📂 Estrutura do Projeto  
+```
+src/
+ ├── Components/
+ │    ├── Menu/
+ │    ├── HeroSection/
+ │    ├── AboutSection/
+ │    ├── ServicesSection/
+ │    ├── ContactSection/
+ │    └── Footer/
+ ├── Pages/
+ ├── Routes/
+ ├── utils/
+ │    ├── speech.js
+ │    └── audio.js
+ ├── App.jsx
+ └── main.jsx
+```
+
+---
+
+## 🧪 Instalação  
+```bash
+git clone https://github.com/EnzoCaetano015/site-cognitivo
+cd site-cognitivo
+npm install
+npm run dev
+```
+
+---
+
+## 📤 Build para Produção  
+```bash
+npm run build
+```
+
+---
+
+## 🤝 Contribuição  
+Contribuições são bem-vindas!  
+- Faça um **fork**  
+- Crie uma branch  
+- Envie um Pull Request  
+
+---
+
+## 📜 Licença  
+Ainda não definida.
+
+---
+
+## 💙 Agradecimentos  
+Este projeto promove inclusão e acessibilidade.  
+Inspirado em boas práticas da W3C/WAI.
+
+---
+
+Feito com dedicação e foco em acessibilidade.
